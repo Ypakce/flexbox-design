@@ -9,7 +9,65 @@ body {
 
 .container1 {
     background-color: #1f2937;
+    color: white;
     flex: 1;
+}
+.container1 .c1-main{
+    padding: 20px 200px 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.container1 .c1-main .c1-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container1 .c1-main .c1-header .header-logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.container1 .c1-main .c1-header .header-links{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.container1 .c1-main .c1-body{
+    display: flex;
+    justify-content: space-between;
+}
+.container1 .c1-main .c1-body .c1-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container1 .c1-main .c1-body .c1-item .item-header{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.container1 .c1-main .c1-body .c1-item .item-main{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.container1 .c1-main .c1-body .c1-item .item-button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+    padding: 5px 20px;
+    width: 50px;
+}
+.container1 .c1-main .c1-body .c1-img{
+    width: 600px;
+    height: 200px;
+    background-color: grey;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container2 {
@@ -54,7 +112,6 @@ body {
     display: flex;
     padding: 100px 300px;
     flex-direction: column;
-    align-items: center;
 }
 .container3 .c3-body .quote{
     font-size: 36px;
@@ -64,6 +121,7 @@ body {
 .container3 .c3-body .author{
     font-size: 24px;
     font-weight: bold;
+    text-align: right;
 }
 
 .container4 {
